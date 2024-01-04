@@ -1,0 +1,8 @@
+let arr = [1,2,3,4,5,6];
+let res = [];
+while (arr.length > 0) {
+    [a,b,...arr] = arr;
+    res.push(b, a);
+}
+
+console.log(res);
